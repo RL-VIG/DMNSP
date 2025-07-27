@@ -112,7 +112,7 @@ If you find this work useful in your research, please consider citing:
 @inproceedings{Kang2025DMNSP,
   title={Dynamic Multi-Layer Null Space Projection for Vision-Language Continual Learning},
   author={Borui Kang, Lei Wang, Zhiping Wu, Tao Feng, Yawen Li, Yang Gao, Wenbin Li},
-  journal={CVPR},
+  journal={ICCV},
   year={2025}
 }
 ```
