@@ -27,7 +27,7 @@ def continual_clip(cfg: DictConfig) -> None:
     utils.save_config(cfg)
     cfg.class_order = utils.get_class_order(os.path.join(cfg.workdir, cfg.class_order))
     origin_flag = False
-    devices = [2, 3]
+    devices = [0]
     model = load_model(cfg, devices[0], origin_flag)
 
     eval_dataset, classes_names = build_cl_scenarios(
