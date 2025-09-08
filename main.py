@@ -15,7 +15,7 @@ from continual_clip.models import load_model
 from continual_clip.datasets import build_cl_scenarios
 from torch.utils.data import DataLoader, DistributedSampler
 
-WORLD_NUM = 2
+WORLD_NUM = 1
 @hydra.main(config_path=None, config_name=None, version_base="1.1")
 def continual_clip(cfg: DictConfig) -> None:
 
